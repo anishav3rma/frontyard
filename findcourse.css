@@ -1,0 +1,177 @@
+#header {
+    background-color: #ffffff;
+    height: auto;
+    padding: 5px 5px;
+}
+
+#typingCourses {
+    border: none;
+    background-color: rgb(153, 46, 46);
+    border-radius: 70px;
+    outline: none;
+    width: 440px;
+    height: 80px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+    font-family:'Georgia', Tahoma, Geneva, Verdana, serif;
+    display:inline-block;
+    position: relative;
+    top: 335px;
+    color: white;
+    cursor:pointer;
+    transition: background-color 0.3s;
+}
+
+#typingCourses::placeholder {
+    color:#ffffff;
+}
+
+#typingCourses:hover, #typingCourses:active {
+    background-color:black;
+}
+
+#courses {
+    padding: 5px;
+    margin: 5px 0 0;
+}
+
+#courses li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+#courses li:hover {
+    background-color: cadetblue;
+}
+
+#typingRating {
+    border: none;
+    background-color: rgb(174, 102, 118);
+    border-radius: 70px;
+    outline: none;
+    width: 440px;
+    height: 80px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline white;
+    font-family:'Georgia', Tahoma, Geneva, Verdana, serif;
+    display:inline-block;
+    position: relative;
+    top: 345px;
+    color: white;
+    cursor:pointer;
+    transition: background-color 0.3s;
+}
+
+#typingRating::placeholder {
+    color: white;
+}
+
+#typingRating:hover, #typingRating:active {
+    background-color: black;
+}
+
+#ratings {
+    padding: 5px;
+    margin: 5px 0 0;
+}
+
+#ratings li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+#ratings li:hover {
+    background-color: cadetblue;
+}
+
+.header-you {
+    display:block;
+    background-color: white;
+    width: 10%;
+    color: black;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    font-family:'Georgia', Tahoma, Geneva, Verdana, serif;
+    cursor: pointer;
+}
+
+.you-container {
+    position: absolute;
+    right:50px;
+    top:30px;
+}
+
+.header-findschool {
+    display:block;
+    background-color: white;
+    width: 100%;
+    color: black;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    font-family:'Georgia', Tahoma, Geneva, Verdana, serif;
+    cursor: pointer;
+}
+
+.findschool-container {
+    position: absolute;
+    right:125px;
+    top:30px;
+}
+
+.header-findcourse {
+    display:block;
+    background-color: white;
+    text-decoration: underline black;
+    color: black;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    font-family:'Georgia', Tahoma, Geneva, Verdana, serif;
+    cursor: pointer;
+}
+
+.findcourse-container {
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    right:295px;
+    top:30px;
+}
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    font-size: 100px;
+}
+
+h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant:normal;
+    font-size: 20px;
+    position:relative;
+    top: 173px;
+}
+
+/* hr {
+    background-color: black;
+    height: 35px;
+    width: 100%;
+    position: fixed;
+    bottom: -9px;
+} */
+
+img {
+    position:relative;
+    top: 168px;  
+}
+
+body {
+    background-color: white;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="findcourse.css"/>
+    <script src="findcourse.js" defer></script>
+    <title>CourseReco Find a Course Page</title>
+</head>
+
+<body>
+
+    <div class="you-container">
+
+        <button class="header-you" onclick="redirectToYOU()">YOU</button>
+
+    </div>
+
+    <div class="findschool-container">
+
+        <button class="header-findschool" onclick="redirectToSCHOOL()">FIND A SCHOOL</button>
+
+    </div>
+
+    <div class="findcourse-container">
+
+        <button class="header-findcourse" onclick="redirectToCOURSE()">FIND A COURSE</button>
+
+    </div>
+
+    <center> 
+        <form autocomplete="off" action="/view-board" method="get">
+            <input type="text" id="typingCourses" placeholder="Search for courses..." class="smooth" oninput="searchForCourse()">
+        </form>
+        <ul id="courses"></ul>
+
+        <form autocomplete="off" action="/rate-board" method="get">
+            <input type="text" id="typingRating" placeholder="Rate a course" class="smooth" oninput="searchForCourse()">
+        </form>
+        <ul id="ratings"></ul>
+    </center>
+    
+<!-- <hr/> -->
+
+</body>
+
+</html>

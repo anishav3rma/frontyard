@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="app.css"/>
+    <script src="app.js" defer></script>
+    <title>CourseReco Home Page</title>
+</head>
+
+<body>
+    <div id="main-content">
+    <div class="you-container">
+
+        <button class="header-you" onclick="redirectToYOU()">YOU</button>
+
+    </div>
+
+    <div class="findschool-container">
+
+        <button class="header-findschool" onclick="redirectToSCHOOL()">FIND A SCHOOL</button>
+
+    </div>
+
+    <center> 
+        <img src="images/cp9.png" alt="logo"
+        width="290px"
+        height="75px">
+    
+        <h1></h1>
+    
+        <h2>Select a school to see what your peers have to say about your current classes.</h2>
+
+        <!-- <form autocomplete="off" action="/discussion-board" method="get">
+            <input type="text" id="typingArea" placeholder="Your school or university..." class="smooth" oninput="searchForUni()">
+        </form> -->
+        <form id="searchForm" autocomplete="off" onsubmit="handleSearch(event)">
+            <input type="text" id="typingArea" placeholder="Your school or university..." class="smooth">
+        </form>
+        <!-- <ul id="suggestions"></ul> -->
+       
+    </center>
+    
+    </div>
+    <div id="discussion-board-content" style="display: none;"></div>
+    <div id="selected-school" class="selected-school"></div>
+</body>
+
+</html>
