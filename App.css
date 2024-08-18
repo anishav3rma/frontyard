@@ -1,0 +1,146 @@
+#header {
+    background-color: #ffffff;
+    height: auto;
+    padding: 5px 5px;
+}
+
+#typingArea {
+    border: none;
+    background-color: black;
+    border-radius: 70px;
+    outline: none;
+    width: 440px;
+    height: 80px;
+    font-size: 18px;
+    font-family:'Georgia', Tahoma, Geneva, Verdana, serif;
+    text-align: center;
+    text-decoration: underline;
+    display:inline-block;
+    position: relative;
+    top: 300px;
+    color: white;
+    cursor:pointer;
+    transition: background-color 0.3s;
+}
+
+#typingArea::placeholder {
+    color:#ffffff;
+}
+
+#typingArea:hover, #typingArea:active {
+    background-color:peru;
+}
+
+
+ul {
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 100px;
+    list-style-type: none; 
+    padding: 50px;
+}
+
+ul li {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 5px 0;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Georgia', Tahoma, Geneva, Verdana, serif;
+    font-size:18px;
+    /* font-weight: bold; */
+    /* border: 2px solid #ccc; */
+    /* border-radius: 70px; */
+    height: 40px;
+    width: 250px;
+    padding: 30px; 
+    /* background-color: rgb(93, 146, 151); */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: rgb(37, 110, 49);
+    cursor: pointer; 
+    transition: background-color 0.2s;
+    margin: 0 auto; 
+}
+
+ul li:hover {
+    /* background-color: rgb(83, 132, 156); */
+    background-color: black;
+    color:white;
+}
+
+.results-header {
+    font-family: 'Georgia', Tahoma, Geneva, Verdana, serif;
+    font-size: 17px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.selected-school {
+    font-family: 'Georgia', Tahoma, Geneva, Verdana, serif;
+    text-decoration: underline;
+    font-size: 25px;
+    color: rgb(0, 0, 0); 
+    margin-top: 20px;
+}
+
+.header-you {
+    display:block;
+    background-color: white;
+    color: black;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    font-family:'Georgia', Tahoma, Geneva, Verdana, serif;
+    cursor: pointer;
+}
+
+.you-container {
+    position: absolute;
+    right:50px;
+    top:30px;
+}
+
+.header-findschool {
+    display:block;
+    background-color: white;
+    color: black;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    font-family:'Georgia', Tahoma, Geneva, Verdana, serif;
+    cursor: pointer;
+}
+
+.findschool-container {
+    position: absolute;
+    right:125px;
+    top:30px;
+}
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    font-size: 100px;
+}
+
+h2 {
+    font-family:'Georgia', Tahoma, Geneva, Verdana, serif;
+    font-variant:normal;
+    font-size: 20px;
+    position:relative;
+    top: 280px;
+}
+
+img {
+    position:relative;
+    top: 168px;  
+}
+
+body {
+    background-color: white;
+}

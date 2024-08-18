@@ -3,8 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     if (schoolName) {
         document.getElementById('school-name').innerText = schoolName;
     }
-
-    ReactDOM.render(<App />, document.getElementById('react-root'));
 });
 
 function redirectToYOU() {
