@@ -1,4 +1,3 @@
-# Frontyard
 # Welcome to Frontyard's Repo! 
 # Frontyard is an interactive school community for all colleges/universities in North Carolina. 
 Frontyard allows students to post school specific questions, rate courses, make study buddies, and more all within the premises of their school.
